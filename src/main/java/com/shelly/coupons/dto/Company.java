@@ -1,7 +1,9 @@
 package com.shelly.coupons.dto;
 
+import com.shelly.coupons.entities.CompanyEntity;
+
 public class Company {
-    private int id;
+    private long id;
     private String name;
     private String phoneNumber;
     private String address;
@@ -22,11 +24,18 @@ public class Company {
     public Company() {
     }
 
-    public int getId() {
+    public Company(CompanyEntity company) {
+        this.id = company.getId();
+        this.name = company.getName();
+        this.phoneNumber = company.getPhoneNumber();
+        this.address = company.getAddress();
+    }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

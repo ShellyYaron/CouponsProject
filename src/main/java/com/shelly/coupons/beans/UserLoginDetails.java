@@ -1,5 +1,5 @@
 package com.shelly.coupons.beans;/*
-package com.shelly.coupons.beans;
+package com.shelly.com.shelly.coupons.beans;
 
 public class UserLoginDetails {
 

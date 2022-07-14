@@ -1,5 +1,7 @@
 package com.shelly.coupons.entities;
 
+import com.shelly.coupons.dto.Customer;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -23,6 +25,12 @@ public class CustomerEntity {
     private UserEntity userEntity;
 
     public CustomerEntity() {
+    }
+
+    public CustomerEntity(Customer customer) {
+        this.id = customer.getId();
+        this.amountOfChildren = customer.getAmountOfChildren();
+        this.address = customer.getAddress();
     }
 
     public CustomerEntity(long id, int amountOfChildren, String address, UserEntity userEntity) {
@@ -79,6 +87,7 @@ public class CustomerEntity {
     public UserEntity getUser() {
         return userEntity;
     }
+
 
     @Override
     public String toString() {

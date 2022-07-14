@@ -1,15 +1,26 @@
 package com.shelly.coupons.dto;
 
+import com.shelly.coupons.entities.PurchaseEntity;
+
 import java.sql.Timestamp;
 
 public class Purchase {
-    private int id;
-    private int customerId;
-    private int couponId;
+    private long id;
+    private long customerId;
+    private long couponId;
     private int amount;
     private Timestamp timestamp;
 
-    public Purchase(int id, int customerId, int couponId, int amount, Timestamp timestamp) {
+    public Purchase(PurchaseEntity purchase) {
+        this.id = purchase.getId();
+        this.customerId = purchase.getCustomer().getId();
+        this.couponId = purchase.getCoupon().getId();
+        this.amount = purchase.getAmount();
+        this.timestamp = purchase.getTimestamp();
+    }
+
+
+    public Purchase(long id, long customerId, long couponId, int amount, Timestamp timestamp) {
         this.id = id;
         this.customerId = customerId;
         this.couponId = couponId;
@@ -17,7 +28,7 @@ public class Purchase {
         this.timestamp = timestamp;
     }
 
-    public Purchase(int customerId, int couponId, int amount, Timestamp timestamp) {
+    public Purchase(long customerId, long couponId, int amount, Timestamp timestamp) {
         this.customerId = customerId;
         this.couponId = couponId;
         this.amount = amount;
@@ -27,27 +38,27 @@ public class Purchase {
     public Purchase() {
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public int getCustomerId() {
+    public long getCustomerId() {
         return customerId;
     }
 
-    public void setCustomerId(int customerId) {
+    public void setCustomerId(long customerId) {
         this.customerId = customerId;
     }
 
-    public int getCouponId() {
+    public long getCouponId() {
         return couponId;
     }
 
-    public void setCouponId(int couponId) {
+    public void setCouponId(long couponId) {
         this.couponId = couponId;
     }
 

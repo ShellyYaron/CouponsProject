@@ -1,35 +1,41 @@
 package com.shelly.coupons.dto;
 
+import com.shelly.coupons.entities.CustomerEntity;
+
 public class Customer {
-    private int id;
+    private long id;
     private String address;
     private int amountOfChildren;
-    private String phoneNumber;
     private long userId;
 
-    public Customer(int id, String address, int amountOfChildren, String phoneNumber, long userId) {
+    public Customer(CustomerEntity customer){
+        this.id = customer.getId();
+        this.address = customer.getAddress();
+        this.amountOfChildren = customer.getAmountOfChildren();
+        this.userId = customer.getUser().getId();
+    }
+
+    public Customer(long id, String address, int amountOfChildren, long userId) {
         this.id = id;
         this.address = address;
         this.amountOfChildren = amountOfChildren;
-        this.phoneNumber = phoneNumber;
         this.userId = userId;
     }
 
-    public Customer(String address, int amountOfChildren, String phoneNumber, long userId) {
+    public Customer(String address, int amountOfChildren, long userId) {
         this.address = address;
         this.amountOfChildren = amountOfChildren;
-        this.phoneNumber = phoneNumber;
         this.userId = userId;
     }
 
     public Customer() {
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -49,13 +55,6 @@ public class Customer {
         this.amountOfChildren = amountOfChildren;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
 
     public long getUserId() {
         return userId;
@@ -71,7 +70,6 @@ public class Customer {
                 "id=" + id +
                 ", address='" + address + '\'' +
                 ", amountOfChildren=" + amountOfChildren +
-                ", phoneNumber='" + phoneNumber + '\'' +
                 ", userId=" + userId +
                 '}';
     }

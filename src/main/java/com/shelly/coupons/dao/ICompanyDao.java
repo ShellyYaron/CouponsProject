@@ -1,8 +1,9 @@
 package com.shelly.coupons.dao;
 
 import com.shelly.coupons.entities.CompanyEntity;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ICompanyDao extends CrudRepository<CompanyEntity, Long> {
+
+public interface ICompanyDao extends JpaRepository<CompanyEntity, Long> {
 
 }

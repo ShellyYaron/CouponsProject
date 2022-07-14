@@ -1,7 +1,7 @@
 package com.shelly.coupons.logic;/*
-package com.shelly.coupons.logic;
+package com.shelly.com.shelly.coupons.logic;
 
-import com.shelly.coupons.dao.ICouponDao;
+import com.shelly.com.shelly.coupons.dao.ICouponDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,7 +26,7 @@ public class ScheduleLogic {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                System.out.println("checking if there is expired coupons to delete");
+                System.out.println("checking if there is expired com.shelly.coupons to delete");
                 couponDao.deleteByEndDateLessThan(Date.valueOf(todayDate));
             }
         };

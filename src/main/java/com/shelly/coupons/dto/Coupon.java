@@ -1,12 +1,13 @@
 package com.shelly.coupons.dto;
 
+import com.shelly.coupons.entities.CouponEntity;
 import com.shelly.coupons.enums.Category;
 
 import java.sql.Date;
 
 public class Coupon {
-    private int id;
-    private int companyId;
+    private long id;
+    private long companyId;
     private Category category;
     private String title;
     private String description;
@@ -15,7 +16,19 @@ public class Coupon {
     private int amount;
     private float price;
 
-    public Coupon(int id, int companyId, Category category, String title, String description, Date startDate, Date endDate, int amount, float price) {
+    public Coupon(CouponEntity coupon) {
+        this.id = coupon.getId();
+        this.companyId = coupon.getCompany().getId();
+        this.category = coupon.getCategory();
+        this.title = coupon.getTitle();
+        this.description = coupon.getDescription();
+        this.startDate = coupon.getStartDate();
+        this.endDate = coupon.getEndDate();
+        this.amount = coupon.getAmount();
+        this.price = coupon.getPrice();
+    }
+
+    public Coupon(long id, long companyId, Category category, String title, String description, Date startDate, Date endDate, int amount, float price) {
         this.id = id;
         this.companyId = companyId;
         this.category = category;
@@ -27,7 +40,7 @@ public class Coupon {
         this.price = price;
     }
 
-    public Coupon(int companyId, Category category, String title, String description, Date startDate, Date endDate, int amount, float price) {
+    public Coupon(long companyId, Category category, String title, String description, Date startDate, Date endDate, int amount, float price) {
         this.companyId = companyId;
         this.category = category;
         this.title = title;
@@ -41,19 +54,19 @@ public class Coupon {
     public Coupon() {
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public int getCompanyId() {
+    public long getCompanyId() {
         return companyId;
     }
 
-    public void setCompanyId(int companyId) {
+    public void setCompanyId(long companyId) {
         this.companyId = companyId;
     }
 

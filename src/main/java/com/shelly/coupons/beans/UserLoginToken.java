@@ -1,8 +1,8 @@
 package com.shelly.coupons.beans;/*
-package com.shelly.coupons.beans;
+package com.shelly.com.shelly.coupons.beans;
 
-import com.shelly.coupons.entities.CompanyEntity;
-import com.shelly.coupons.enums.UserType;
+import com.shelly.com.shelly.coupons.entities.CompanyEntity;
+import com.shelly.com.shelly.coupons.enums.UserType;
 
 public class UserLoginToken {
     private String token;

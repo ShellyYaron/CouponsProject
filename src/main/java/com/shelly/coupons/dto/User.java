@@ -1,35 +1,44 @@
 package com.shelly.coupons.dto;
 
+import com.shelly.coupons.entities.UserEntity;
 import com.shelly.coupons.enums.UserType;
 
 
 public class User {
 
-    private int id;
+    private long id;
     private String username;
     private String password;
     private String firstName;
     private String lastName;
-    private long companyId;
     private UserType userType;
+
+    public User(UserEntity user) {
+        this.id = user.getId();
+        this.username = user.getUsername();
+        this.password = user.getPassword();
+        this.firstName = user.getFirstName();
+        this.lastName = user.getLastName();
+        this.userType = user.getUserType();
+    }
+
 
     public User() {
     }
 
-    public User(String username, String password, String firstName, String lastName, long companyId, UserType userType) {
+    public User(String username, String password, String firstName, String lastName, UserType userType) {
         this.username = username;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.companyId = companyId;
         this.userType = userType;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -65,14 +74,6 @@ public class User {
         this.lastName = lastName;
     }
 
-    public long getCompanyId() {
-        return companyId;
-    }
-
-    public void setCompanyId(long companyId) {
-        this.companyId = companyId;
-    }
-
     public UserType getUserType() {
         return userType;
     }
@@ -81,25 +82,23 @@ public class User {
         this.userType = userType;
     }
 
-    public User(int userId, String username, String password, String firstName, String lastName, long companyId, UserType userType) {
+    public User(int userId, String username, String password, String firstName, String lastName, UserType userType) {
         this.id = userId;
         this.username = username;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.companyId = companyId;
         this.userType = userType;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "userId=" + id +
-                ", userName='" + username + '\'' +
-                ", userPassword='" + password + '\'' +
-                ", userFirstName='" + firstName + '\'' +
-                ", userLastName='" + lastName + '\'' +
-                ", companyId=" + companyId +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", userType=" + userType +
                 '}';
     }

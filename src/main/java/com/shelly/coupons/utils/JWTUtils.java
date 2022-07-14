@@ -1,7 +1,7 @@
 package com.shelly.coupons.utils;/*
-package com.shelly.coupons.utils;
+package com.shelly.com.shelly.coupons.utils;
 
-import com.shelly.coupons.consts.Consts;
+import com.shelly.com.shelly.coupons.consts.Consts;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;

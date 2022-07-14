@@ -1,5 +1,8 @@
 package com.shelly.coupons.entities;
 
+
+import com.shelly.coupons.dto.Company;
+
 import javax.persistence.*;
 import java.util.List;
 @Entity
@@ -36,7 +39,14 @@ public class CompanyEntity {
 
 	}
 
-	public List<CouponEntity> getCoupons() {
+    public CompanyEntity(Company company) {
+		this.id = company.getId();
+		this.name = company.getName();
+		this.address = company.getAddress();
+		this.phoneNumber = company.getPhoneNumber();
+    }
+
+    public List<CouponEntity> getCoupons() {
 		return couponEntities;
 	}
 
@@ -78,8 +88,12 @@ public class CompanyEntity {
 
 	@Override
 	public String toString() {
-		return "Company [id=" + id + ", name=" + name + ", address=" + address + ", phone=" + phoneNumber + "]";
+		return "CompanyEntity{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", address='" + address + '\'' +
+				", phoneNumber='" + phoneNumber + '\'' +
+				", couponEntities=" + couponEntities +
+				'}';
 	}
-	
-
 }

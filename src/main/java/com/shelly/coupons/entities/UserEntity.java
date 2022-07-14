@@ -1,5 +1,6 @@
 package com.shelly.coupons.entities;
 
+import com.shelly.coupons.dto.User;
 import com.shelly.coupons.enums.UserType;
 
 import javax.persistence.*;
@@ -20,7 +21,8 @@ public class UserEntity {
     @Column(name = "username", unique = true, nullable = false)
     private String username;
     @Column(name = "password", nullable = false)
-    private int passwordHash;
+    private String password;
+
 
     @Column(name = "user_type", nullable = false)
     @Enumerated(EnumType.STRING)
@@ -29,20 +31,29 @@ public class UserEntity {
     public UserEntity() {
     }
 
-    public UserEntity(long id, String firstName, String lastName, String username, int passwordHash, UserType userType) {
+    public UserEntity(User user) {
+        this.id = user.getId();
+        this.firstName = user.getFirstName();
+        this.lastName = user.getLastName();
+        this.username = user.getUsername();
+        this.password = user.getPassword();
+        this.userType = user.getUserType();
+    }
+
+    public UserEntity(long id, String firstName, String lastName, String username, String password, UserType userType) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.username = username;
-        this.passwordHash = passwordHash;
+        this.password = password;
         this.userType = userType;
     }
 
-    public UserEntity(String firstName, String lastName, String username, int passwordHash, UserType userType) {
+    public UserEntity(String firstName, String lastName, String username, String password, UserType userType) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.username = username;
-        this.passwordHash = passwordHash;
+        this.password = password;
         this.userType = userType;
     }
 
@@ -78,12 +89,12 @@ public class UserEntity {
         this.username = username;
     }
 
-    public int getPasswordHash() {
-        return passwordHash;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPasswordHash(int passwordHash) {
-        this.passwordHash = passwordHash;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public UserType getUserType() {
@@ -101,7 +112,7 @@ public class UserEntity {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", username='" + username + '\'' +
-                ", passwordHash=" + passwordHash +
+                ", passwordHash=" + password +
                 ", userType=" + userType +
                 '}';
     }

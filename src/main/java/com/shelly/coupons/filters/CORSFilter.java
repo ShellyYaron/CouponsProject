@@ -1,5 +1,5 @@
 package com.shelly.coupons.filters;/*
-package com.shelly.coupons.filters;
+package com.shelly.com.shelly.coupons.filters;
 
 import org.springframework.stereotype.Component;
 

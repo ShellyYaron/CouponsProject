@@ -1,22 +1,19 @@
 package com.shelly.coupons.dao;
 
+import com.shelly.coupons.dto.Coupon;
 import com.shelly.coupons.entities.CouponEntity;
 import com.shelly.coupons.enums.Category;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
-import java.sql.Date;
 import java.util.List;
 
-public interface ICouponDao extends CrudRepository<CouponEntity, Long> {
+public interface ICouponDao extends JpaRepository<CouponEntity, Long> {
 
-    void deleteByEndDateLessThan (Date todayDate);
+    List<CouponEntity> findByCategory(String category);
 
-    void deleteByCompanyId(long companyId);
-
-    List<CouponEntity> findByCompanyId (long companyId);
-
-    List<CouponEntity> findByCategoryAndCompanyId (Category category , long companyId);
-
-    List<CouponEntity> findByPriceLessThanAndCompanyId (float price, long companyId);
+    @Query("SELECT c FROM CouponEntity c WHERE c.category= :category")
+    List<Coupon> getByCategory(@Param("category") Category category);
 }
 
