@@ -1,4 +1,4 @@
-package com.shelly.coupons.beans;/*
+package coupons.beans;/*
 package com.shelly.coupons.beans;
 
 import com.shelly.coupons.entities.CompanyEntity;

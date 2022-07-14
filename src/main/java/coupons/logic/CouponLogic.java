@@ -1,4 +1,4 @@
-package com.shelly.coupons.logic;
+package coupons.logic;
 
 import com.shelly.coupons.dao.ICouponDao;
 import com.shelly.coupons.dto.Coupon;

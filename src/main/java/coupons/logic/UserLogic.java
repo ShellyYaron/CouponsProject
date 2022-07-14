@@ -1,5 +1,5 @@
 
-package com.shelly.coupons.logic;
+package coupons.logic;
 
 import com.shelly.coupons.dao.IUserDao;
 import com.shelly.coupons.entities.UserEntity;

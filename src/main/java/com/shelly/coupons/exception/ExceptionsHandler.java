@@ -1,7 +1,6 @@
 package com.shelly.coupons.exception;
 
 
-import com.shelly.coupons.beans.ErrorBean;
 import com.shelly.coupons.enums.ErrorType;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

@@ -1,4 +1,4 @@
-package com.shelly.coupons.beans;/*
+package coupons.beans;/*
 package com.shelly.coupons.beans;
 
 public class ErrorBean {
