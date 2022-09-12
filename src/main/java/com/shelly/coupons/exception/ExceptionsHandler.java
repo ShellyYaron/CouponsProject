@@ -1,4 +1,6 @@
-package com.shelly.coupons.exception;/*
+/*
+package com.shelly.coupons.exception;*/
+/*
 package com.shelly.com.shelly.coupons.exception;
 
 
@@ -83,4 +85,5 @@ public class ExceptionsHandler {
     }
 }
 
-*/
+*//*
+
