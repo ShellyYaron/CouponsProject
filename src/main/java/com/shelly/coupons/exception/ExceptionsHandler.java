@@ -1,11 +1,10 @@
-/*
-package com.shelly.coupons.exception;*/
-/*
-package com.shelly.com.shelly.coupons.exception;
+
+package com.shelly.coupons.exception;
 
 
-import com.shelly.com.shelly.coupons.beans.ErrorBean;
-import com.shelly.com.shelly.coupons.enums.ErrorType;
+
+import com.shelly.coupons.beans.ErrorBean;
+import com.shelly.coupons.enums.ErrorType;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -85,5 +84,4 @@ public class ExceptionsHandler {
     }
 }
 
-*//*
 

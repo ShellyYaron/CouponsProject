@@ -1,7 +1,6 @@
-package com.shelly.coupons.exception;/*
-package com.shelly.com.shelly.coupons.exception;
+package com.shelly.coupons.exception;
 
-import com.shelly.com.shelly.coupons.enums.ErrorType;
+import com.shelly.coupons.enums.ErrorType;
 
 public class ApplicationException extends Exception {
     private ErrorType errorType;
@@ -26,4 +25,4 @@ public class ApplicationException extends Exception {
 
 
 }
-*/
+

@@ -1,5 +1,4 @@
-package com.shelly.coupons.enums;/*
-package com.shelly.com.shelly.coupons.enums;
+package com.shelly.coupons.enums;
 
 public enum ErrorType {
 
@@ -55,4 +54,3 @@ public enum ErrorType {
 
 
 }
-*/

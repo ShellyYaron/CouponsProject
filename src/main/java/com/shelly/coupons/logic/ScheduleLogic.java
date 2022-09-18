@@ -1,7 +1,6 @@
-package com.shelly.coupons.logic;/*
-package com.shelly.com.shelly.coupons.logic;
+package com.shelly.coupons.logic;
 
-import com.shelly.com.shelly.coupons.dao.ICouponDao;
+import com.shelly.coupons.dao.ICouponDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -35,4 +34,3 @@ public class ScheduleLogic {
     }
 
 }
-*/
