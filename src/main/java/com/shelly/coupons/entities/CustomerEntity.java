@@ -1,11 +1,17 @@
 package com.shelly.coupons.entities;
 
 import com.shelly.coupons.dto.Customer;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Getter
+@RequiredArgsConstructor
+@Setter
 @Table(name = "customers")
 public class CustomerEntity {
     @Id
@@ -24,70 +30,11 @@ public class CustomerEntity {
     @MapsId
     private UserEntity userEntity;
 
-    public CustomerEntity() {
-    }
-
     public CustomerEntity(Customer customer) {
         this.id = customer.getId();
         this.amountOfChildren = customer.getAmountOfChildren();
         this.address = customer.getAddress();
     }
-
-    public CustomerEntity(long id, int amountOfChildren, String address, UserEntity userEntity) {
-        this.id = id;
-        this.amountOfChildren = amountOfChildren;
-        this.address = address;
-        this.userEntity = userEntity;
-    }
-
-    public CustomerEntity(int amountOfChildren, String address, UserEntity userEntity) {
-        this.amountOfChildren = amountOfChildren;
-        this.address = address;
-        this.userEntity = userEntity;
-    }
-
-    public List<PurchaseEntity> getPurchases() {
-        return purchaseEntities;
-    }
-
-    public void setPurchases(List<PurchaseEntity> purchaseEntities) {
-        this.purchaseEntities = purchaseEntities;
-    }
-
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public void setUser(UserEntity userEntity) {
-        this.userEntity = userEntity;
-    }
-
-
-    public int getAmountOfChildren() {
-        return amountOfChildren;
-    }
-
-    public void setAmountOfChildren(int amountOfChildren) {
-        this.amountOfChildren = amountOfChildren;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public UserEntity getUser() {
-        return userEntity;
-    }
-
 
     @Override
     public String toString() {

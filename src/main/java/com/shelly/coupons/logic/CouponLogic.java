@@ -45,7 +45,7 @@ public class CouponLogic {
     }
 
 
-    public List<Coupon> getAllCoupons() {
+    public List<Coupon> getCoupons() {
         List<Coupon> couponsList = new ArrayList<>();
         Iterable<CouponEntity> couponIterable = couponDao.findAll();
         for (CouponEntity couponEntity : couponIterable) {

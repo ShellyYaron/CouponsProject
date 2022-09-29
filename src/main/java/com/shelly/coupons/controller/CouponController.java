@@ -12,7 +12,6 @@ import java.util.List;
 @RequestMapping("/coupons")
 public class CouponController {
 
-
     private final CouponLogic couponLogic;
 
     @Autowired
@@ -42,8 +41,8 @@ public class CouponController {
     }
 
     @GetMapping
-    public List<Coupon> getAllCoupons() {
-        return couponLogic.getAllCoupons();
+    public List<Coupon> getCoupons() {
+        return couponLogic.getCoupons();
     }
 
     @GetMapping("/{category}")

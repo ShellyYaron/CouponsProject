@@ -25,7 +25,7 @@ public class ScheduleLogic {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                System.out.println("checking if there is expired com.shelly.coupons to delete");
+                System.out.println("checking if there is expired coupons to delete");
                 couponDao.deleteByEndDateLessThan(Date.valueOf(todayDate));
             }
         };

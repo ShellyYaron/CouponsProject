@@ -2,10 +2,16 @@ package com.shelly.coupons.entities;
 
 
 import com.shelly.coupons.dto.Company;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
 @Entity
+@Getter
+@RequiredArgsConstructor
+@Setter
 @Table(name = "companies")
 public class CompanyEntity {
 	@Id
@@ -23,9 +29,6 @@ public class CompanyEntity {
 
 	@OneToMany (mappedBy = "companyEntity",cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
 	private List <CouponEntity> couponEntities;
-
-	public CompanyEntity() {
-	}
 
 	public CompanyEntity(String name, String address, String phoneNumber) {
 		this.name = name;

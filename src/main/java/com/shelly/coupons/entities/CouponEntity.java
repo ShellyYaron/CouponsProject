@@ -3,12 +3,17 @@ package com.shelly.coupons.entities;
 
 import com.shelly.coupons.dto.Coupon;
 import com.shelly.coupons.enums.Category;
-
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import javax.persistence.*;
-import java.sql.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @Entity
+@Getter
+@RequiredArgsConstructor
+@Setter
 @Table(name = "coupons")
 public class CouponEntity {
     @Id
@@ -19,24 +24,21 @@ public class CouponEntity {
     @Column(name = "price", nullable = false)
     private float price;
     @ManyToOne
-    private com.shelly.coupons.entities.CompanyEntity companyEntity;
+    private CompanyEntity companyEntity;
     @OneToMany(mappedBy = "couponEntity", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
-    private List<com.shelly.coupons.entities.PurchaseEntity> purchaseEntities;
+    private List<PurchaseEntity> purchaseEntities;
     @Column(name = "category", nullable = false)
     @Enumerated(EnumType.STRING)
     private Category category;
     @Column(name = "amount", nullable = false)
     private int amount;
     @Column(name = "start_date", nullable = false)
-    private Date startDate;
+    private LocalDate startDate;
     @Column(name = "end_date", nullable = false)
-    private Date endDate;
+    private LocalDate endDate;
     @Column(name = "description")
     private String description;
 
-
-    public CouponEntity() {
-    }
 
     public CouponEntity(Coupon coupon) {
         this.id = coupon.getId();
@@ -49,15 +51,15 @@ public class CouponEntity {
         this.description = coupon.getDescription();
     }
 
-    public CouponEntity(long id, String title, float price, com.shelly.coupons.entities.CompanyEntity companyEntity, Category category, int amount, Date startDate,
-                        Date endDate, String description) {
+    public CouponEntity(long id, String title, float price, com.shelly.coupons.entities.CompanyEntity companyEntity, Category category, int amount, LocalDate startDate,
+                        LocalDate endDate, String description) {
         this(title, price, companyEntity, category, amount, startDate, endDate, description);
         this.id = id;
 
     }
 
-    public CouponEntity(String title, float price, com.shelly.coupons.entities.CompanyEntity companyEntity, Category category, int amount, Date startDate,
-                        Date endDate, String description) {
+    public CouponEntity(String title, float price, com.shelly.coupons.entities.CompanyEntity companyEntity, Category category, int amount, LocalDate startDate,
+                        LocalDate endDate, String description) {
         this.title = title;
         this.price = price;
         this.companyEntity = companyEntity;
@@ -68,100 +70,4 @@ public class CouponEntity {
         this.description = description;
     }
 
-    public List<com.shelly.coupons.entities.PurchaseEntity> getPurchases() {
-        return purchaseEntities;
-    }
-
-    public void setPurchases(List<PurchaseEntity> purchaseEntities) {
-        this.purchaseEntities = purchaseEntities;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
-    }
-
-    public Date getStartDate() {
-        return startDate;
-    }
-
-    public void setStartDate(Date startDate) {
-        this.startDate = startDate;
-    }
-
-    public Date getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public float getPrice() {
-        return price;
-    }
-
-    public void setPrice(float price) {
-        this.price = price;
-    }
-
-
-    public com.shelly.coupons.entities.CompanyEntity getCompany() {
-        return companyEntity;
-    }
-
-    public void setCompany(CompanyEntity companyEntity) {
-        this.companyEntity = companyEntity;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public Category getCategory() {
-        return category;
-    }
-
-    public void setCategory(Category category) {
-        this.category = category;
-    }
-
-    @Override
-    public String toString() {
-        return "CouponEntity{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", price=" + price +
-                ", companyEntity=" + companyEntity +
-                ", purchaseEntities=" + purchaseEntities +
-                ", category=" + category +
-                ", amount=" + amount +
-                ", startDate=" + startDate +
-                ", endDate=" + endDate +
-                ", description='" + description + '\'' +
-                '}';
-    }
 }
