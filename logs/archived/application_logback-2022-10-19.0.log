@@ -1,0 +1,250 @@
+2022-10-19 10:28:36 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 60592 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-10-19 10:28:36 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-10-19 10:28:37 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 10:28:37 [main] INFO :Finished Spring Data repository scanning in 104 ms. Found 5 JPA repository interfaces.
+2022-10-19 10:28:38 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-10-19 10:28:38 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 10:28:38 [main] INFO :Starting service [Tomcat]
+2022-10-19 10:28:38 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 10:28:39 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-10-19 10:28:39 [main] INFO :Root WebApplicationContext: initialization completed in 2563 ms
+2022-10-19 10:28:39 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 10:28:39 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-19 10:28:39 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 10:28:39 [main] INFO :HikariPool-1 - Starting...
+2022-10-19 10:28:40 [main] INFO :HikariPool-1 - Start completed.
+2022-10-19 10:28:40 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-10-19 10:28:41 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 10:28:41 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 10:28:42 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 10:28:43 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 10:28:43 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 10:28:43 [main] INFO :Started Main in 7.645 seconds (JVM running for 8.591)
+2022-10-19 10:49:58 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 10:49:58 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-10-19 10:49:58 [http-nio-8080-exec-1] INFO :Completed initialization in 9 ms
+2022-10-19 10:49:58 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-10-19 10:49:58 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 10:49:58 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-10-19 10:49:58 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 10:49:58 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-10-19 10:49:58 [http-nio-8080-exec-4] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-10-19 10:49:58 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 10:49:58 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-10-19 10:49:58 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 10:49:58 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-10-19 11:47:25 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s36ms).
+2022-10-19 11:57:07 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m11s605ms).
+2022-10-19 12:13:44 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m7s593ms).
+2022-10-19 17:32:28 [http-nio-8080-exec-6] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-10-19 17:32:28 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 17:32:28 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-10-19 17:32:28 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 17:32:28 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-10-19 17:32:28 [http-nio-8080-exec-7] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-10-19 17:32:28 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 17:32:28 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-10-19 17:32:28 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 17:32:28 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-10-19 18:06:59 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m7s517ms).
+2022-10-19 19:53:30 [http-nio-8080-exec-9] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-10-19 19:53:30 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 19:53:30 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-10-19 19:53:30 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 19:53:30 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:53:30 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-10-19 19:53:30 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 19:53:30 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-10-19 19:53:30 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-10-19 19:53:30 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-10-19 20:13:41 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s163ms).
+2022-10-19 20:18:10 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m28s869ms).
+2022-10-19 20:21:32 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s206ms).
+2022-10-19 21:56:07 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s938ms).
+2022-10-19 22:14:25 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m48s76ms).

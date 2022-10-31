@@ -1,5 +1,8 @@
 package com.shelly.coupons.enums;
 
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
 public enum ErrorType {
 
     GENERAL_ERROR(600, "General error", "Unknown general error", true),

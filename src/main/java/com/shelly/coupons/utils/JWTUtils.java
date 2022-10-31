@@ -1,14 +1,13 @@
-package com.shelly.coupons.utils;/*
-package com.shelly.com.shelly.coupons.utils;
+package com.shelly.coupons.utils;
 
-import com.shelly.com.shelly.coupons.consts.Consts;
+import com.shelly.coupons.consts.Consts;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import jakarta.xml.bind.DatatypeConverter;
 
 import javax.crypto.spec.SecretKeySpec;
+import javax.xml.bind.DatatypeConverter;
 import java.security.Key;
 import java.util.Date;
 
@@ -61,4 +60,4 @@ public class JWTUtils {
         Claims claims = decodeJWT(token);
     }
 }
-*/
+

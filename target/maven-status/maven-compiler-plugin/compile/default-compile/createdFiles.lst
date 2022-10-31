@@ -9,6 +9,7 @@ com/shelly/coupons/controller/CompanyController.class
 com/shelly/coupons/controller/CustomerController.class
 com/shelly/coupons/controller/UserController.class
 com/shelly/coupons/logic/CompanyLogic.class
+com/shelly/coupons/dto/APIResponse.class
 com/shelly/coupons/entities/CustomerEntity.class
 com/shelly/coupons/logic/CouponLogic.class
 com/shelly/coupons/logic/ScheduleLogic$1.class
@@ -35,4 +36,5 @@ com/shelly/coupons/dto/Coupon.class
 com/shelly/coupons/dto/Company.class
 com/shelly/coupons/enums/ErrorType.class
 com/shelly/coupons/exception/ApplicationException.class
+com/shelly/coupons/utils/JWTUtils.class
 com/shelly/coupons/controller/CouponController.class

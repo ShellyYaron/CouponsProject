@@ -1,5 +1,6 @@
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/utils/JWTUtils.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/beans/UserLoginDetails.java
+/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/dto/APIResponse.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/dao/IPurchaseDao.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/enums/UserType.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/dao/IUserDao.java
@@ -7,6 +8,7 @@
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/entities/CompanyEntity.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/entities/PurchaseEntity.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/controller/CouponController.java
+/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/filters/LoginFilter.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/Main.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/controller/UserController.java
 /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/src/main/java/com/shelly/coupons/dao/ICompanyDao.java

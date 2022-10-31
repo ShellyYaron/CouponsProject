@@ -25,6 +25,8 @@ public class Coupon {
     private int amount;
     private float price;
 
+    private String image;
+
     public Coupon(CouponEntity coupon) {
         this.id = coupon.getId();
         this.companyId = coupon.getCompanyEntity().getId();
@@ -35,6 +37,7 @@ public class Coupon {
         this.endDate = coupon.getEndDate();
         this.amount = coupon.getAmount();
         this.price = coupon.getPrice();
+        this.image = coupon.getImage();
     }
 
 

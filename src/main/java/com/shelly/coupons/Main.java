@@ -8,6 +8,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableWebMvc
+
 public class Main {
     public static void main(String[] args) {
 

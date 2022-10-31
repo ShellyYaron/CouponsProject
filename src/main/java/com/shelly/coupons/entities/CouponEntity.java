@@ -39,6 +39,9 @@ public class CouponEntity {
     @Column(name = "description")
     private String description;
 
+    @Column(name = "image_url")
+    private String image;
+
 
     public CouponEntity(Coupon coupon) {
         this.id = coupon.getId();
@@ -49,25 +52,7 @@ public class CouponEntity {
         this.startDate = coupon.getStartDate();
         this.endDate = coupon.getEndDate();
         this.description = coupon.getDescription();
-    }
-
-    public CouponEntity(long id, String title, float price, com.shelly.coupons.entities.CompanyEntity companyEntity, Category category, int amount, LocalDate startDate,
-                        LocalDate endDate, String description) {
-        this(title, price, companyEntity, category, amount, startDate, endDate, description);
-        this.id = id;
-
-    }
-
-    public CouponEntity(String title, float price, com.shelly.coupons.entities.CompanyEntity companyEntity, Category category, int amount, LocalDate startDate,
-                        LocalDate endDate, String description) {
-        this.title = title;
-        this.price = price;
-        this.companyEntity = companyEntity;
-        this.category = category;
-        this.amount = amount;
-        this.startDate = startDate;
-        this.endDate = endDate;
-        this.description = description;
+        this.image = coupon.getImage();
     }
 
 }

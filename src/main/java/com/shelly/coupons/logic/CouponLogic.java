@@ -24,8 +24,6 @@ public class CouponLogic {
 
     public long createCoupon(Coupon coupon) throws ApplicationException  {
         CouponEntity couponEntity = new CouponEntity(coupon);
-        //validations
-
         couponDao.save(couponEntity);
         return couponEntity.getId();
     }
@@ -59,4 +57,7 @@ public class CouponLogic {
     public List<Coupon> getByCategory(Category category) {
         return couponDao.getByCategory(category);
     }
+
+
+
 }
