@@ -1,6 +1,7 @@
 package com.shelly.coupons.controller;
 
 import com.shelly.coupons.dto.Customer;
+import com.shelly.coupons.exception.ApplicationException;
 import com.shelly.coupons.logic.CustomerLogic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -20,28 +21,28 @@ public class CustomerController {
     }
 
     @PostMapping
-    public long createCustomer(@RequestBody Customer customer) {
+    public long createCustomer(@RequestBody Customer customer) throws ApplicationException {
 
         return customerLogic.createCustomer(customer);
     }
 
     @PutMapping
-    public void updateCustomer(@RequestBody Customer customer) {
+    public void updateCustomer(@RequestBody Customer customer)throws ApplicationException {
         customerLogic.updateCustomer(customer);
     }
 
     @DeleteMapping("/{id}")
-    public void deleteCustomer(@PathVariable("id") long id) {
+    public void deleteCustomer(@PathVariable("id") long id)throws ApplicationException {
         customerLogic.deleteCustomer(id);
     }
 
     @GetMapping("/{id}")
-    public Customer getCustomerById(@PathVariable("id") long id) {
+    public Customer getCustomerById(@PathVariable("id") long id)throws ApplicationException {
         return customerLogic.getCustomerById(id);
     }
 
     @GetMapping
-    public List<Customer> getAllCustomers() {
+    public List<Customer> getAllCustomers()throws ApplicationException {
         return customerLogic.getAllCustomers();
     }
 

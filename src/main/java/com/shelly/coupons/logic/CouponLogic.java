@@ -4,6 +4,7 @@ import com.shelly.coupons.dao.ICouponDao;
 import com.shelly.coupons.dto.Coupon;
 import com.shelly.coupons.entities.CouponEntity;
 import com.shelly.coupons.enums.Category;
+import com.shelly.coupons.exception.ApplicationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,7 +22,7 @@ public class CouponLogic {
         this.couponDao = couponDao;
     }
 
-    public long createCoupon(Coupon coupon) {
+    public long createCoupon(Coupon coupon) throws ApplicationException  {
         CouponEntity couponEntity = new CouponEntity(coupon);
         //validations
 
@@ -29,16 +30,16 @@ public class CouponLogic {
         return couponEntity.getId();
     }
 
-    public void updateCoupon(Coupon coupon) {
+    public void updateCoupon(Coupon coupon) throws ApplicationException{
         CouponEntity couponEntity = new CouponEntity(coupon);
         couponDao.save(couponEntity);
     }
 
-    public void deleteCoupon(long id) {
+    public void deleteCoupon(long id) throws ApplicationException {
         couponDao.deleteById(id);
     }
 
-    public Coupon getCouponById(long id) {
+    public Coupon getCouponById(long id) throws ApplicationException {
         CouponEntity couponEntity = couponDao.findById(id).get();
         Coupon coupon = new Coupon(couponEntity);
         return coupon;
