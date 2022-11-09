@@ -21,14 +21,14 @@ public class CustomerLogic {
         this.customerDao = customerDao;
     }
 
-    public long createCustomer(Customer customer) throws ApplicationException {
-        CustomerEntity customersEntity = new CustomerEntity(customer);
-        customerDao.save(customersEntity);
-        return customersEntity.getId();
+    public Customer createCustomer(Customer customer) throws ApplicationException {
+        CustomerEntity customersEntity = CustomerEntity.from(customer);
+        customersEntity = customerDao.save(customersEntity);
+        return Customer.from(customersEntity);
     }
 
     public void updateCustomer(Customer customer) throws ApplicationException{
-        CustomerEntity customersEntity = new CustomerEntity(customer);
+        CustomerEntity customersEntity = CustomerEntity.from(customer);
         customerDao.save(customersEntity);
     }
 
@@ -38,7 +38,7 @@ public class CustomerLogic {
 
     public Customer getCustomerById(long id)throws ApplicationException {
         CustomerEntity customersEntity = customerDao.findById(id).get();
-        Customer customer = new Customer(customersEntity);
+        Customer customer = Customer.from(customersEntity);
         return customer;
     }
 
@@ -46,7 +46,7 @@ public class CustomerLogic {
         List<Customer> customerList = new ArrayList<>();
         Iterable<CustomerEntity> customersIterable = customerDao.findAll();
         for (CustomerEntity customersEntity : customersIterable) {
-            Customer customer = new Customer(customersEntity);
+            Customer customer = Customer.from(customersEntity);
             customerList.add(customer);
         }
         return customerList;

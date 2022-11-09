@@ -12,15 +12,18 @@ import lombok.ToString;
 @ToString
 public class Customer {
     private long id;
+
+    private User user;
     private String address;
     private int amountOfChildren;
-    private long userId;
 
-    public Customer(CustomerEntity customer){
-        this.id = customer.getId();
-        this.address = customer.getAddress();
-        this.amountOfChildren = customer.getAmountOfChildren();
-        this.userId = customer.getUserEntity().getId();
+    public static Customer from(CustomerEntity customerEntity){
+        Customer customer = new Customer();
+        customer.setId(customerEntity.getId());
+        customer.setAddress(customerEntity.getAddress());
+        customer.setAmountOfChildren(customerEntity.getAmountOfChildren());
+        customer.setUser(User.from(customerEntity.getUserEntity()));
+        return customer;
     }
 
 }

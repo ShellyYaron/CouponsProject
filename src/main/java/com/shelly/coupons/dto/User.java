@@ -20,13 +20,15 @@ public class User {
     private String lastName;
     private UserType userType;
 
-    public User(UserEntity user) {
-        this.id = user.getId();
-        this.username = user.getUsername();
-        this.password = user.getPassword();
-        this.firstName = user.getFirstName();
-        this.lastName = user.getLastName();
-        this.userType = user.getUserType();
+    public static User from(UserEntity userEntity) {
+        User user = new User();
+        user.setId(userEntity.getId());
+        user.setFirstName(userEntity.getFirstName());
+        user.setLastName(userEntity.getLastName());
+        user.setUsername(userEntity.getUsername());
+        user.setPassword(userEntity.getPassword());
+        user.setUserType(userEntity.getUserType());
+        return user;
     }
 
 }

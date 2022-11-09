@@ -6,7 +6,6 @@ public class ApplicationException extends Exception {
     private ErrorType errorType;
 
     public ApplicationException(ErrorType errorType) {
-        super(message);
         this.errorType = errorType;
     }
 

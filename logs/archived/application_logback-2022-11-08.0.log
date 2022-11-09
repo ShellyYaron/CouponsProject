@@ -1,0 +1,551 @@
+2022-11-08 00:01:06 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s944ms).
+2022-11-08 00:18:06 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m30s270ms).
+2022-11-08 00:33:43 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m36s828ms).
+2022-11-08 00:56:01 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m48s539ms).
+2022-11-08 01:16:33 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s256ms).
+2022-11-08 01:34:10 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m7s485ms).
+2022-11-08 01:51:15 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m4s886ms).
+2022-11-08 02:04:07 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m21s579ms).
+2022-11-08 02:28:28 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m20s765ms).
+2022-11-08 02:46:21 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m22s888ms).
+2022-11-08 03:02:55 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s699ms).
+2022-11-08 03:19:21 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s101ms).
+2022-11-08 03:36:49 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m57s898ms).
+2022-11-08 03:57:27 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m37s782ms).
+2022-11-08 04:02:00 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m32s923ms).
+2022-11-08 04:18:52 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m21s690ms).
+2022-11-08 04:34:18 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m25s902ms).
+2022-11-08 04:50:54 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m6s110ms).
+2022-11-08 05:08:14 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m49s843ms).
+2022-11-08 05:23:46 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s938ms).
+2022-11-08 05:40:48 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m31s901ms).
+2022-11-08 06:00:24 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m35s903ms).
+2022-11-08 06:17:32 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m8s337ms).
+2022-11-08 06:34:58 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s11ms).
+2022-11-08 06:50:39 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m40s780ms).
+2022-11-08 07:07:02 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m53s80ms).
+2022-11-08 07:24:24 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m51s853ms).
+2022-11-08 07:35:45 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m51s693ms).
+2022-11-08 07:54:47 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m31s438ms).
+2022-11-08 08:00:37 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m19s958ms).
+2022-11-08 08:09:26 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m49s232ms).
+2022-11-08 08:11:36 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m40s149ms).
+2022-11-08 08:18:34 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m57s459ms).
+2022-11-08 08:22:07 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s385ms).
+2022-11-08 08:28:14 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m37s568ms).
+2022-11-08 08:30:37 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m53s16ms).
+2022-11-08 08:36:48 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m39s765ms).
+2022-11-08 08:54:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m1s91ms).
+2022-11-08 09:00:12 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m22s534ms).
+2022-11-08 09:02:11 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s608ms).
+2022-11-08 09:15:17 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m36s508ms).
+2022-11-08 09:16:45 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s766ms).
+2022-11-08 09:32:46 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m1s154ms).
+2022-11-08 09:37:40 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m23s969ms).
+2022-11-08 09:39:02 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s602ms).
+2022-11-08 09:43:44 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m42s422ms).
+2022-11-08 09:50:59 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m44s711ms).
+2022-11-08 10:00:52 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m22s725ms).
+2022-11-08 10:03:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s742ms).
+2022-11-08 10:21:05 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m14s357ms).
+2022-11-08 10:25:49 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 10:25:49 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 10:25:49 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 15:58:46 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 67749 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 15:58:46 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 15:58:48 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 15:58:48 [main] INFO :Finished Spring Data repository scanning in 118 ms. Found 5 JPA repository interfaces.
+2022-11-08 15:58:49 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 15:58:49 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 15:58:49 [main] INFO :Starting service [Tomcat]
+2022-11-08 15:58:49 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 15:58:49 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 15:58:49 [main] INFO :Root WebApplicationContext: initialization completed in 2833 ms
+2022-11-08 15:58:50 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 15:58:50 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 15:58:50 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 15:58:50 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 15:58:51 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 15:58:51 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 15:58:52 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 15:58:52 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 15:58:53 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 15:58:54 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 15:58:54 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 15:58:54 [main] INFO :Started Main in 8.153 seconds (JVM running for 9.067)
+2022-11-08 15:59:24 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 15:59:24 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 15:59:24 [http-nio-8080-exec-1] INFO :Completed initialization in 5 ms
+2022-11-08 15:59:24 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-08 15:59:24 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-08 15:59:24 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-08 15:59:24 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-08 15:59:24 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-08 15:59:24 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-08 15:59:24 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-08 15:59:24 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-08 15:59:24 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-08 15:59:24 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-08 16:15:19 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:15:19 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:15:19 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:15:23 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 67988 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:15:23 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:15:24 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:15:24 [main] INFO :Finished Spring Data repository scanning in 131 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:15:26 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:15:26 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:15:26 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:15:26 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:15:26 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:15:26 [main] INFO :Root WebApplicationContext: initialization completed in 2847 ms
+2022-11-08 16:15:26 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:15:26 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:15:26 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:15:26 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:15:27 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:15:27 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:15:28 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:15:28 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:15:29 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 16:15:30 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:15:31 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 16:15:31 [main] INFO :Started Main in 8.483 seconds (JVM running for 9.833)
+2022-11-08 16:16:24 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 16:16:24 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 16:16:24 [http-nio-8080-exec-1] INFO :Completed initialization in 2 ms
+2022-11-08 16:18:58 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m688ms).
+2022-11-08 16:18:58 [http-nio-8080-Acceptor] ERROR:Error setting socket options
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393)
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280)
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247)
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285)
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:219)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:502)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:149)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-08 16:18:58 [http-nio-8080-Acceptor] ERROR:Error setting socket options
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393)
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280)
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247)
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285)
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:219)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:502)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:149)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-08 16:18:58 [http-nio-8080-Acceptor] ERROR:Error setting socket options
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393)
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280)
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247)
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285)
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:219)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:502)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:149)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-08 16:18:58 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:18:58 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:18:58 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:19:18 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 68063 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:19:18 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:19:19 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:19:19 [main] INFO :Finished Spring Data repository scanning in 107 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:19:20 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:19:20 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:19:20 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:19:20 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:19:20 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:19:20 [main] INFO :Root WebApplicationContext: initialization completed in 2762 ms
+2022-11-08 16:19:21 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:19:21 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:19:21 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:19:21 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:19:21 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:19:21 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:19:22 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:19:22 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:19:24 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 16:19:25 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:19:25 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 16:19:25 [main] INFO :Started Main in 7.922 seconds (JVM running for 8.817)
+2022-11-08 16:19:37 [http-nio-8080-exec-2] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 16:19:37 [http-nio-8080-exec-2] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 16:19:37 [http-nio-8080-exec-2] INFO :Completed initialization in 3 ms
+2022-11-08 16:20:05 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:20:05 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:20:05 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:20:11 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 68088 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:20:11 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:20:13 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:20:13 [main] INFO :Finished Spring Data repository scanning in 119 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:20:14 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:20:14 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:20:14 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:20:14 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:20:14 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:20:14 [main] INFO :Root WebApplicationContext: initialization completed in 2708 ms
+2022-11-08 16:20:14 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:20:14 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:20:15 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:20:15 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:20:15 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:20:15 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:20:16 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:20:16 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:20:17 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 16:20:18 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:20:18 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 16:20:18 [main] INFO :Started Main in 7.804 seconds (JVM running for 8.643)
+2022-11-08 16:20:23 [http-nio-8080-exec-4] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 16:20:23 [http-nio-8080-exec-4] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 16:20:23 [http-nio-8080-exec-4] INFO :Completed initialization in 2 ms
+2022-11-08 16:20:53 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:20:53 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:20:53 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:20:58 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 68121 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:20:58 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:20:59 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:20:59 [main] INFO :Finished Spring Data repository scanning in 132 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:21:00 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:21:00 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:21:00 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:21:00 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:21:01 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:21:01 [main] INFO :Root WebApplicationContext: initialization completed in 2747 ms
+2022-11-08 16:21:01 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:21:01 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:21:01 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:21:01 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:21:02 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:21:02 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:21:03 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:21:03 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:21:04 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 16:21:05 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:21:05 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 16:21:05 [main] INFO :Started Main in 8.395 seconds (JVM running for 9.218)
+2022-11-08 16:21:29 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 16:21:29 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 16:21:29 [http-nio-8080-exec-1] INFO :Completed initialization in 7 ms
+2022-11-08 16:26:06 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:26:06 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:26:06 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:26:10 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 68282 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:26:10 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:26:12 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:26:12 [main] INFO :Finished Spring Data repository scanning in 118 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:26:13 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:26:13 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:26:13 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:26:13 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:26:13 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:26:13 [main] INFO :Root WebApplicationContext: initialization completed in 2623 ms
+2022-11-08 16:26:13 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:26:13 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:26:14 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:26:14 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:26:14 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:26:14 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:26:15 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:26:15 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:26:16 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 16:26:17 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:26:18 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 16:26:18 [main] INFO :Started Main in 7.795 seconds (JVM running for 8.613)
+2022-11-08 16:26:30 [http-nio-8080-exec-8] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 16:26:30 [http-nio-8080-exec-8] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 16:26:30 [http-nio-8080-exec-8] INFO :Completed initialization in 1 ms
+2022-11-08 16:31:57 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:31:57 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:31:57 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:44:35 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 68834 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:44:35 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:44:36 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:44:36 [main] INFO :Finished Spring Data repository scanning in 111 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:44:38 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:44:38 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:44:38 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:44:38 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:44:38 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:44:38 [main] INFO :Root WebApplicationContext: initialization completed in 2588 ms
+2022-11-08 16:44:38 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:44:38 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:44:38 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:44:38 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:44:39 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:44:39 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:44:40 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:44:40 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:44:41 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 16:44:42 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:44:42 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 16:44:42 [main] INFO :Started Main in 7.886 seconds (JVM running for 8.732)
+2022-11-08 16:44:48 [http-nio-8080-exec-5] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 16:44:48 [http-nio-8080-exec-5] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 16:44:48 [http-nio-8080-exec-5] INFO :Completed initialization in 2 ms
+2022-11-08 16:45:20 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:45:20 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:45:20 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:45:24 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 68865 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:45:24 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:45:26 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:45:26 [main] INFO :Finished Spring Data repository scanning in 138 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:45:27 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:45:27 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:45:27 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:45:27 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:45:27 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:45:27 [main] INFO :Root WebApplicationContext: initialization completed in 2742 ms
+2022-11-08 16:45:28 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:45:28 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:45:28 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:45:28 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:45:28 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:45:28 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:45:29 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:45:29 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:45:30 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 16:45:32 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:45:32 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 16:45:32 [main] INFO :Started Main in 7.946 seconds (JVM running for 8.766)
+2022-11-08 16:45:36 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 16:45:36 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 16:45:36 [http-nio-8080-exec-1] INFO :Completed initialization in 2 ms
+2022-11-08 16:45:37 [http-nio-8080-exec-10] INFO :Init duration for springdoc-openapi is: 778 ms
+2022-11-08 16:58:33 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 16:58:33 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 16:58:33 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 16:59:53 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 69098 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 16:59:53 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 16:59:55 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 16:59:55 [main] INFO :Finished Spring Data repository scanning in 118 ms. Found 5 JPA repository interfaces.
+2022-11-08 16:59:56 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 16:59:56 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 16:59:56 [main] INFO :Starting service [Tomcat]
+2022-11-08 16:59:56 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 16:59:56 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 16:59:56 [main] INFO :Root WebApplicationContext: initialization completed in 2782 ms
+2022-11-08 16:59:56 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 16:59:56 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 16:59:57 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 16:59:57 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 16:59:57 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 16:59:57 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 16:59:58 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 16:59:58 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 17:00:00 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 17:00:01 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 17:00:01 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 17:00:01 [main] INFO :Started Main in 8.391 seconds (JVM running for 9.265)
+2022-11-08 17:00:26 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 17:00:26 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 17:00:26 [http-nio-8080-exec-1] INFO :Completed initialization in 1 ms
+2022-11-08 17:00:27 [http-nio-8080-exec-2] INFO :Init duration for springdoc-openapi is: 752 ms
+2022-11-08 17:08:15 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 17:08:15 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 17:08:15 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 17:08:21 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 69236 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 17:08:21 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 17:08:22 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 17:08:23 [main] INFO :Finished Spring Data repository scanning in 122 ms. Found 5 JPA repository interfaces.
+2022-11-08 17:08:24 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 17:08:24 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 17:08:24 [main] INFO :Starting service [Tomcat]
+2022-11-08 17:08:24 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 17:08:24 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 17:08:24 [main] INFO :Root WebApplicationContext: initialization completed in 2713 ms
+2022-11-08 17:08:24 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 17:08:24 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 17:08:24 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 17:08:24 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 17:08:25 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 17:08:25 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 17:08:26 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 17:08:26 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 17:08:27 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 17:08:28 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 17:08:28 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 17:08:28 [main] INFO :Started Main in 8.064 seconds (JVM running for 8.894)
+2022-11-08 17:08:40 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 17:08:40 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 17:08:40 [http-nio-8080-exec-1] INFO :Completed initialization in 2 ms
+2022-11-08 17:08:42 [http-nio-8080-exec-5] INFO :Init duration for springdoc-openapi is: 881 ms
+2022-11-08 17:09:09 [http-nio-8080-exec-7] DEBUG:
+    insert 
+    into
+        users
+        (first_name, last_name, password, user_type, username) 
+    values
+        (?, ?, ?, ?, ?)
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [VARCHAR] - [string]
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [2] as [VARCHAR] - [string]
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [3] as [VARCHAR] - [string]
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [4] as [VARCHAR] - [ADMIN]
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [5] as [VARCHAR] - [string]
+2022-11-08 17:09:09 [http-nio-8080-exec-7] DEBUG:
+    insert 
+    into
+        customers
+        (address, amount_of_children, user_entity_id) 
+    values
+        (?, ?, ?)
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [VARCHAR] - [string]
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [2] as [INTEGER] - [0]
+2022-11-08 17:09:09 [http-nio-8080-exec-7] TRACE:binding parameter [3] as [BIGINT] - [2]
+2022-11-08 17:11:04 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 17:11:04 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-08 17:11:04 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-08 17:11:09 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 69327 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-08 17:11:09 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-08 17:11:10 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-08 17:11:11 [main] INFO :Finished Spring Data repository scanning in 114 ms. Found 5 JPA repository interfaces.
+2022-11-08 17:11:12 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-08 17:11:12 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-08 17:11:12 [main] INFO :Starting service [Tomcat]
+2022-11-08 17:11:12 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 17:11:12 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-08 17:11:12 [main] INFO :Root WebApplicationContext: initialization completed in 2848 ms
+2022-11-08 17:11:12 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-08 17:11:12 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-08 17:11:12 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-08 17:11:12 [main] INFO :HikariPool-1 - Starting...
+2022-11-08 17:11:13 [main] INFO :HikariPool-1 - Start completed.
+2022-11-08 17:11:13 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-08 17:11:14 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-08 17:11:14 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-08 17:11:15 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-08 17:11:16 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-08 17:11:16 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 17:11:16 [main] INFO :Started Main in 8.085 seconds (JVM running for 8.939)
+2022-11-08 17:11:30 [http-nio-8080-exec-2] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 17:11:30 [http-nio-8080-exec-2] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-08 17:11:30 [http-nio-8080-exec-2] INFO :Completed initialization in 3 ms
+2022-11-08 17:11:30 [http-nio-8080-exec-2] DEBUG:
+    insert 
+    into
+        users
+        (first_name, last_name, password, user_type, username) 
+    values
+        (?, ?, ?, ?, ?)
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [VARCHAR] - [Shelly]
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [2] as [VARCHAR] - [Benveniste]
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [3] as [VARCHAR] - [kejkejrkejr]
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [4] as [VARCHAR] - [CUSTOMER]
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [5] as [VARCHAR] - [hhrhr]
+2022-11-08 17:11:30 [http-nio-8080-exec-2] DEBUG:
+    insert 
+    into
+        customers
+        (address, amount_of_children, user_entity_id) 
+    values
+        (?, ?, ?)
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [VARCHAR] - [weizzmman 37]
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [2] as [INTEGER] - [0]
+2022-11-08 17:11:30 [http-nio-8080-exec-2] TRACE:binding parameter [3] as [BIGINT] - [3]
+2022-11-08 17:38:01 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m44s854ms).
+2022-11-08 17:41:30 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m28s748ms).
+2022-11-08 17:42:58 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s340ms).
+2022-11-08 17:52:49 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m51s340ms).
+2022-11-08 17:55:00 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s40ms).
+2022-11-08 17:57:02 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s817ms).
+2022-11-08 18:13:54 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m21s411ms).
+2022-11-08 18:15:49 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m55s6ms).
+2022-11-08 18:24:43 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m24s131ms).
+2022-11-08 18:39:00 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m17s586ms).
+2022-11-08 18:43:57 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s57ms).
+2022-11-08 18:50:01 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m33s654ms).
+2022-11-08 18:51:37 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s567ms).
+2022-11-08 19:01:27 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m20s651ms).
+2022-11-08 19:17:26 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m58s231ms).
+2022-11-08 19:29:58 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m1s920ms).
+2022-11-08 19:51:24 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m56s919ms).
+2022-11-08 20:01:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m55s133ms).
+2022-11-08 20:21:36 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m45s842ms).
+2022-11-08 20:38:06 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m470ms).
+2022-11-08 20:44:41 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m34s639ms).
+2022-11-08 20:46:29 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s911ms).
+2022-11-08 20:54:03 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m4s281ms).
+2022-11-08 21:14:16 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m42s675ms).
+2022-11-08 21:31:46 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m635ms).
+2022-11-08 21:53:17 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m499ms).
+2022-11-08 22:15:55 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m8s93ms).
+2022-11-08 22:34:42 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m17s98ms).
+2022-11-08 22:45:46 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m4s185ms).
+2022-11-08 23:02:31 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m44s305ms).
+2022-11-08 23:12:44 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m13s65ms).
+2022-11-08 23:30:30 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m46s274ms).
+2022-11-08 23:48:43 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m42s541ms).
+2022-11-08 23:55:49 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m6s249ms).

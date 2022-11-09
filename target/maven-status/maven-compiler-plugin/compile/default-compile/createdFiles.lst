@@ -14,6 +14,7 @@ com/shelly/coupons/entities/CustomerEntity.class
 com/shelly/coupons/logic/CouponLogic.class
 com/shelly/coupons/logic/ScheduleLogic$1.class
 com/shelly/coupons/dao/IPurchaseDao.class
+com/shelly/coupons/filters/LoginFilter.class
 com/shelly/coupons/entities/PurchaseEntity.class
 com/shelly/coupons/Main.class
 com/shelly/coupons/entities/CompanyEntity.class

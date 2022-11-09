@@ -1,12 +1,18 @@
 
 package com.shelly.coupons.logic;
 
+import ch.qos.logback.core.net.ObjectWriter;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.shelly.coupons.beans.UserLoginDetails;
+import com.shelly.coupons.beans.UserLoginToken;
 import com.shelly.coupons.dao.IUserDao;
 import com.shelly.coupons.dto.User;
 import com.shelly.coupons.entities.UserEntity;
 import com.shelly.coupons.enums.ErrorType;
 import com.shelly.coupons.enums.UserType;
 import com.shelly.coupons.exception.ApplicationException;
+import com.shelly.coupons.utils.JWTUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -70,5 +76,18 @@ public class UserLogic {
             throw new ApplicationException(ErrorType.INCORRECT_VALUE);
         }
 }
+
+    public UserLoginToken login(UserLoginDetails userLogin) throws ApplicationException, JsonProcessingException {
+        UserEntity userEntity = userDao.login(userLogin.getUsername(), userLogin.getPassword());
+
+        if (userEntity ==null){
+            throw new ApplicationException(ErrorType.LOGIN_FAILED);
+        }
+        ObjectMapper objectMapper = new ObjectMapper();
+        String userJson = objectMapper.writeValueAsString(userEntity);
+        String token = JWTUtils.createJWT(userJson);
+        User user = User.from(userEntity);
+        return new UserLoginToken(token,user);
+    }
 }
 

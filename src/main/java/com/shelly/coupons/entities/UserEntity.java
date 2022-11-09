@@ -34,15 +34,16 @@ public class UserEntity {
     @Enumerated(EnumType.STRING)
     private UserType userType;
 
-    public UserEntity(User user) {
-        this.id = user.getId();
-        this.firstName = user.getFirstName();
-        this.lastName = user.getLastName();
-        this.username = user.getUsername();
-        this.password = user.getPassword();
-        this.userType = user.getUserType();
+    public static UserEntity from(User user) {
+        UserEntity userEntity = new UserEntity();
+        userEntity.setFirstName(user.getFirstName());
+        userEntity.setLastName(user.getLastName());
+        userEntity.setUsername(user.getUsername());
+        userEntity.setPassword(user.getPassword());
+        userEntity.setUserType(user.getUserType());
+        return userEntity;
     }
-    
+
     @Override
     public String toString() {
         return "UserEntity{" +

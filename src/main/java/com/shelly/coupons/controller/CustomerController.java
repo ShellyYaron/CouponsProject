@@ -21,8 +21,7 @@ public class CustomerController {
     }
 
     @PostMapping
-    public long createCustomer(@RequestBody Customer customer) throws ApplicationException {
-
+    public Customer createCustomer(@RequestBody Customer customer) throws ApplicationException {
         return customerLogic.createCustomer(customer);
     }
 

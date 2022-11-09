@@ -30,10 +30,12 @@ public class CustomerEntity {
     @MapsId
     private UserEntity userEntity;
 
-    public CustomerEntity(Customer customer) {
-        this.id = customer.getId();
-        this.amountOfChildren = customer.getAmountOfChildren();
-        this.address = customer.getAddress();
+    public static CustomerEntity from(Customer customer) {
+        CustomerEntity customerEntity = new CustomerEntity();
+        customerEntity.setUserEntity(UserEntity.from(customer.getUser()));
+        customerEntity.setAddress(customer.getAddress());
+        customerEntity.setAmountOfChildren(customer.getAmountOfChildren());
+        return customerEntity;
     }
 
     @Override
