@@ -6,10 +6,14 @@ import com.shelly.coupons.entities.CouponEntity;
 import com.shelly.coupons.enums.Category;
 import com.shelly.coupons.exception.ApplicationException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class CouponLogic {
@@ -58,6 +62,10 @@ public class CouponLogic {
         return couponDao.getByCategory(category);
     }
 
+    public List<Coupon> sortCouponsByParameter( int pageNumber, int pageSize, String parameter) {
+        Page<CouponEntity> coupons = couponDao.findAll(PageRequest.of(pageNumber, pageSize, Sort.by(Sort.Direction.ASC, parameter)));
+        return coupons.stream().map(Coupon::from).collect(Collectors.toList());
+    }
 
 
 }

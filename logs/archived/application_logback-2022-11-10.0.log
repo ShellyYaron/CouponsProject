@@ -1,0 +1,1928 @@
+2022-11-10 08:46:28 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m31s608ms).
+2022-11-10 08:47:19 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-10 08:47:19 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2022-11-10 08:47:19 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.
+2022-11-10 09:36:28 [main] INFO :Starting Main using Java 18.0.1.1 on Shellys-MBP.lan with PID 2926 (/Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject/target/classes started by shelly_yaron in /Users/shelly_yaron/Documents/לימודים/Java Full stack/IdeaProjects/CouponsProject)
+2022-11-10 09:36:28 [main] INFO :No active profile set, falling back to 1 default profile: "default"
+2022-11-10 09:36:29 [main] INFO :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-10 09:36:29 [main] INFO :Finished Spring Data repository scanning in 123 ms. Found 5 JPA repository interfaces.
+2022-11-10 09:36:30 [main] INFO :Tomcat initialized with port(s): 8080 (http)
+2022-11-10 09:36:30 [main] INFO :Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-10 09:36:30 [main] INFO :Starting service [Tomcat]
+2022-11-10 09:36:30 [main] INFO :Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-10 09:36:31 [main] INFO :Initializing Spring embedded WebApplicationContext
+2022-11-10 09:36:31 [main] INFO :Root WebApplicationContext: initialization completed in 2474 ms
+2022-11-10 09:36:31 [main] INFO :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-10 09:36:31 [main] INFO :HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-10 09:36:31 [main] INFO :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-10 09:36:31 [main] INFO :HikariPool-1 - Starting...
+2022-11-10 09:36:32 [main] INFO :HikariPool-1 - Start completed.
+2022-11-10 09:36:32 [main] INFO :HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-10 09:36:33 [main] INFO :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-10 09:36:33 [main] INFO :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-10 09:36:34 [main] WARN :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-10 09:36:35 [main] INFO :Starting ProtocolHandler ["http-nio-8080"]
+2022-11-10 09:36:35 [main] INFO :Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-10 09:36:35 [main] INFO :Started Main in 7.592 seconds (JVM running for 8.477)
+2022-11-10 09:36:42 [http-nio-8080-exec-1] INFO :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-10 09:36:42 [http-nio-8080-exec-1] INFO :Initializing Servlet 'dispatcherServlet'
+2022-11-10 09:36:42 [http-nio-8080-exec-1] INFO :Completed initialization in 1 ms
+2022-11-10 09:36:42 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 09:36:42 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:36:42 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 09:36:42 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:36:42 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 09:36:42 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 09:36:42 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:36:42 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 09:36:42 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:36:42 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 09:46:01 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 09:46:01 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:46:01 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 09:46:01 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:46:01 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 09:46:01 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 09:46:01 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:46:01 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 09:46:01 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 09:46:01 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:01:18 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m15s953ms).
+2022-11-10 10:13:57 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m38s905ms).
+2022-11-10 10:22:53 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:22:53 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:22:53 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:22:53 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:22:53 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:22:53 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:22:53 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:22:53 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:22:53 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:22:53 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:23:24 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:23:24 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:24 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:23:24 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:24 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:23:24 [http-nio-8080-exec-7] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:23:24 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:24 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:23:24 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:24 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:23:54 [http-nio-8080-exec-9] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:23:54 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:54 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:23:54 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:54 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:23:54 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:23:54 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:54 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:23:54 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:23:54 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:25:04 [http-nio-8080-exec-4] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:25:04 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:25:04 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:25:04 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:25:04 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:25:04 [http-nio-8080-exec-5] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:25:04 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:25:04 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:25:04 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:25:04 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:32:38 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m10s781ms).
+2022-11-10 10:37:47 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:37:47 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:37:47 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:37:47 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:37:47 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:37:47 [http-nio-8080-exec-7] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:37:47 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:37:47 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:37:47 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:37:47 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:44:14 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:44:14 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:44:14 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:44:14 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:44:14 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:44:14 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:44:14 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:44:14 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:44:14 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:44:14 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:49:46 [http-nio-8080-exec-5] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:49:46 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:49:46 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:49:46 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:49:46 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 10:49:46 [http-nio-8080-exec-5] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 10:49:46 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:49:46 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 10:49:46 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 10:49:46 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:40:28 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:40:28 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:40:28 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:40:28 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:40:28 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:40:28 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:40:28 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:40:28 [http-nio-8080-exec-7] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:40:28 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:40:28 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:40:28 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:40:28 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:40:28 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:40:28 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:41:48 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:41:48 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:41:48 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:41:48 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:41:48 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:41:48 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:41:48 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:41:48 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:41:48 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:41:48 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:41:48 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:41:48 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:41:48 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:41:48 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:51:58 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s887ms).
+2022-11-10 11:55:18 [http-nio-8080-exec-2] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:55:18 [http-nio-8080-exec-2] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:55:18 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:55:18 [http-nio-8080-exec-2] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:55:18 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:55:18 [http-nio-8080-exec-2] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:55:18 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:55:18 [http-nio-8080-exec-6] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:55:18 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:55:18 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:55:18 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:55:18 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:55:18 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:55:18 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:57:42 [http-nio-8080-exec-8] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:57:43 [http-nio-8080-exec-8] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:57:43 [http-nio-8080-exec-8] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:57:43 [http-nio-8080-exec-8] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:57:43 [http-nio-8080-exec-8] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:57:43 [http-nio-8080-exec-8] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:57:43 [http-nio-8080-exec-8] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:57:43 [http-nio-8080-exec-9] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:57:43 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:57:43 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:57:43 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:57:43 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:57:43 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:57:43 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:58:30 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:58:30 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:30 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:58:30 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:30 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:58:30 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:30 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:58:30 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:58:30 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:30 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:58:30 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:30 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:58:30 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:30 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:58:40 [http-nio-8080-exec-5] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:58:40 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:40 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:58:40 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:40 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:58:40 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:40 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 11:58:40 [http-nio-8080-exec-4] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 11:58:40 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:40 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 11:58:40 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:40 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 11:58:40 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 11:58:40 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:00:59 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:00:59 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:00:59 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:00:59 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:00:59 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:00:59 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:00:59 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:02:01 [http-nio-8080-exec-9] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:02:01 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:01 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:02:01 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:01 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:02:01 [http-nio-8080-exec-9] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:01 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:02:01 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:02:01 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:01 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:02:01 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:01 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:02:01 [http-nio-8080-exec-10] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:01 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:02:42 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:02:42 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:42 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:02:42 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:42 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:02:42 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:42 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:02:42 [http-nio-8080-exec-5] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:02:42 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:42 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:02:42 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:42 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:02:42 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:02:42 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:03:35 [http-nio-8080-exec-4] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:03:35 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:03:35 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:03:35 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:03:35 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:03:35 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:03:35 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:03:35 [http-nio-8080-exec-2] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 12:03:35 [http-nio-8080-exec-2] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:03:35 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 12:03:35 [http-nio-8080-exec-2] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:03:35 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 12:03:35 [http-nio-8080-exec-2] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 12:03:35 [http-nio-8080-exec-2] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 12:11:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s544ms).
+2022-11-10 12:43:40 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m19s658ms).
+2022-11-10 13:03:42 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m1s731ms).
+2022-11-10 13:24:48 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m6s215ms).
+2022-11-10 13:25:44 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s24ms).
+2022-11-10 13:55:06 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m22s151ms).
+2022-11-10 14:08:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m13s823ms).
+2022-11-10 15:18:55 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m35s57ms).
+2022-11-10 15:42:14 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m19s578ms).
+2022-11-10 16:28:02 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m47s669ms).
+2022-11-10 16:51:29 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m26s765ms).
+2022-11-10 17:24:25 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m56s48ms).
+2022-11-10 17:32:35 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m9s938ms).
+2022-11-10 17:36:16 [http-nio-8080-exec-7] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 17:36:16 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:36:16 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 17:36:16 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:36:16 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 17:36:16 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:36:16 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 17:36:16 [http-nio-8080-exec-8] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 17:36:16 [http-nio-8080-exec-8] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:36:16 [http-nio-8080-exec-8] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 17:36:16 [http-nio-8080-exec-8] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:36:16 [http-nio-8080-exec-8] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 17:36:16 [http-nio-8080-exec-8] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:36:16 [http-nio-8080-exec-8] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 17:38:58 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 17:38:58 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:38:58 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 17:38:58 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:38:58 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 17:38:58 [http-nio-8080-exec-3] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:38:58 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 17:38:58 [http-nio-8080-exec-5] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 17:38:58 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:38:58 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 17:38:58 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:38:58 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 17:38:58 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 17:38:58 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 18:08:10 [http-nio-8080-exec-6] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 18:08:10 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 18:08:10 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 18:08:10 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 18:08:10 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 18:08:10 [http-nio-8080-exec-6] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 18:08:10 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 18:08:10 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-11-10 18:08:10 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 18:08:10 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-11-10 18:08:10 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 18:08:10 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-11-10 18:08:10 [http-nio-8080-exec-1] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-11-10 18:08:10 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-11-10 21:29:35 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s725ms).
+2022-11-10 21:31:29 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s89ms).
+2022-11-10 21:34:23 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m54s47ms).
+2022-11-10 21:42:42 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m11s721ms).
+2022-11-10 22:00:16 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m33s399ms).
+2022-11-10 22:17:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m34s93ms).
+2022-11-10 22:37:35 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m15s119ms).
+2022-11-10 22:52:50 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m14s966ms).
+2022-11-10 23:10:26 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m5s777ms).
+2022-11-10 23:26:23 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s918ms).
+2022-11-10 23:30:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m27s247ms).
+2022-11-10 23:46:37 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m47s414ms).

@@ -39,6 +39,18 @@ public class Coupon {
         this.price = coupon.getPrice();
         this.image = coupon.getImage();
     }
-
+    public static Coupon from(CouponEntity couponEntity) {
+        Coupon coupon = new Coupon();
+        coupon.setId(couponEntity.getId());
+        coupon.setTitle(couponEntity.getTitle());
+        coupon.setPrice(couponEntity.getPrice());
+        coupon.setCategory(couponEntity.getCategory());
+        coupon.setAmount(couponEntity.getAmount());
+        coupon.setStartDate(couponEntity.getStartDate());
+        coupon.setEndDate(couponEntity.getEndDate());
+        coupon.setDescription(couponEntity.getDescription());
+        coupon.setImage(couponEntity.getImage());
+        return coupon;
+    }
 
 }

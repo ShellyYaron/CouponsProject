@@ -46,9 +46,14 @@ public class CouponController {
         return couponLogic.getCoupons();
     }
 
-    @GetMapping("/{category}")
+    @GetMapping("/category")
     public List<Coupon> getByCategory(@RequestParam("category") Category category) throws ApplicationException {
         return couponLogic.getByCategory(category);
+    }
+
+    @GetMapping("/PageAndSort/{pageNumber}/{pageSize}")
+    public List<Coupon> sortByParameter(@PathVariable int pageNumber, @PathVariable int pageSize, @RequestParam String parameter) {
+        return couponLogic.sortCouponsByParameter(pageNumber, pageSize, parameter);
     }
 
 

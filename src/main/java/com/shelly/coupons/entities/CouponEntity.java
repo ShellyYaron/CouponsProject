@@ -6,6 +6,7 @@ import com.shelly.coupons.enums.Category;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.List;
@@ -55,4 +56,17 @@ public class CouponEntity {
         this.image = coupon.getImage();
     }
 
+    public static CouponEntity from(Coupon coupon) {
+        CouponEntity couponEntity = new CouponEntity();
+        couponEntity.setId(coupon.getId());
+        couponEntity.setTitle(coupon.getTitle());
+        couponEntity.setPrice(coupon.getPrice());
+        couponEntity.setCategory(coupon.getCategory());
+        couponEntity.setAmount(coupon.getAmount());
+        couponEntity.setStartDate(coupon.getStartDate());
+        couponEntity.setEndDate(coupon.getEndDate());
+        couponEntity.setDescription(coupon.getDescription());
+        couponEntity.setImage(coupon.getImage());
+        return couponEntity;
+    }
 }
