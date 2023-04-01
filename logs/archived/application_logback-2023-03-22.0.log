@@ -1,0 +1,25 @@
+2023-03-22 00:00:18 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m32s707ms).
+2023-03-22 00:34:12 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m53s707ms).
+2023-03-22 01:34:15 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3s25ms).
+2023-03-22 02:37:39 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m23s765ms).
+2023-03-22 03:34:01 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m22s191ms).
+2023-03-22 04:20:21 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m20s442ms).
+2023-03-22 05:27:26 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m4s516ms).
+2023-03-22 06:01:03 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m37s238ms).
+2023-03-22 06:43:29 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m26s328ms).
+2023-03-22 07:34:06 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m37s110ms).
+2023-03-22 08:00:35 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m28s479ms).
+2023-03-22 08:09:35 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m315ms).
+2023-03-22 08:24:59 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m24s286ms).
+2023-03-22 08:58:19 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m19s189ms).
+2023-03-22 09:45:03 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m44s834ms).
+2023-03-22 10:15:37 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m33s94ms).
+2023-03-22 10:28:33 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m56s754ms).
+2023-03-22 10:34:10 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m6s172ms).
+2023-03-22 10:52:42 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m2s215ms).
+2023-03-22 10:54:11 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s998ms).
+2023-03-22 11:04:03 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m52s78ms).
+2023-03-22 11:12:27 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m58s687ms).
+2023-03-22 11:13:06 [SpringApplicationShutdownHook] INFO :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-22 11:13:06 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown initiated...
+2023-03-22 11:13:06 [SpringApplicationShutdownHook] INFO :HikariPool-1 - Shutdown completed.

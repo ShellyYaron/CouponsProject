@@ -1,0 +1,340 @@
+2022-12-18 00:15:40 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m26s94ms).
+2022-12-18 00:32:54 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m13s731ms).
+2022-12-18 01:19:28 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m34s314ms).
+2022-12-18 02:19:11 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m42s464ms).
+2022-12-18 03:15:18 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m6s951ms).
+2022-12-18 04:12:07 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m49s406ms).
+2022-12-18 05:17:11 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m3s866ms).
+2022-12-18 06:21:41 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m30s372ms).
+2022-12-18 07:20:48 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m6s291ms).
+2022-12-18 08:00:27 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m39s351ms).
+2022-12-18 08:16:29 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m1s899ms).
+2022-12-18 08:34:57 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m27s897ms).
+2022-12-18 09:17:21 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m24s441ms).
+2022-12-18 10:03:22 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m510ms).
+2022-12-18 10:18:10 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m48s163ms).
+2022-12-18 10:40:02 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m52s380ms).
+2022-12-18 10:40:48 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s639ms).
+2022-12-18 10:51:07 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m19s201ms).
+2022-12-18 11:17:36 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m28s580ms).
+2022-12-18 11:57:51 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m15s556ms).
+2022-12-18 12:15:56 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m5s116ms).
+2022-12-18 12:28:30 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m33s836ms).
+2022-12-18 12:47:01 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m30s437ms).
+2022-12-18 12:49:30 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m29s637ms).
+2022-12-18 12:56:50 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m19s845ms).
+2022-12-18 13:33:37 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m47s68ms).
+2022-12-18 14:08:21 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m44s3ms).
+2022-12-18 14:14:35 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m13s572ms).
+2022-12-18 14:38:10 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m35s409ms).
+2022-12-18 15:08:15 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m4s979ms).
+2022-12-18 15:37:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m4s581ms).
+2022-12-18 16:10:25 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m4s932ms).
+2022-12-18 16:55:15 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m49s792ms).
+2022-12-18 16:59:51 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m36s659ms).
+2022-12-18 17:00:09 [http-nio-8080-exec-7] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-12-18 17:00:09 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-12-18 17:00:09 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-12-18 17:00:09 [http-nio-8080-exec-7] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-7] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-12-18 17:00:09 [http-nio-8080-exec-4] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_
+2022-12-18 17:00:09 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-12-18 17:00:09 [http-nio-8080-exec-9] DEBUG:
+    select
+        couponenti0_.id as id1_1_0_,
+        couponenti0_.amount as amount2_1_0_,
+        couponenti0_.category as category3_1_0_,
+        couponenti0_.company_entity_id as company10_1_0_,
+        couponenti0_.description as descript4_1_0_,
+        couponenti0_.end_date as end_date5_1_0_,
+        couponenti0_.image_url as image_ur6_1_0_,
+        couponenti0_.price as price7_1_0_,
+        couponenti0_.start_date as start_da8_1_0_,
+        couponenti0_.title as title9_1_0_,
+        companyent1_.id as id1_0_1_,
+        companyent1_.address as address2_0_1_,
+        companyent1_.name as name3_0_1_,
+        companyent1_.phone_number as phone_nu4_0_1_ 
+    from
+        coupons couponenti0_ 
+    left outer join
+        companies companyent1_ 
+            on couponenti0_.company_entity_id=companyent1_.id 
+    where
+        couponenti0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-6] DEBUG:
+    select
+        couponenti0_.id as id1_1_0_,
+        couponenti0_.amount as amount2_1_0_,
+        couponenti0_.category as category3_1_0_,
+        couponenti0_.company_entity_id as company10_1_0_,
+        couponenti0_.description as descript4_1_0_,
+        couponenti0_.end_date as end_date5_1_0_,
+        couponenti0_.image_url as image_ur6_1_0_,
+        couponenti0_.price as price7_1_0_,
+        couponenti0_.start_date as start_da8_1_0_,
+        couponenti0_.title as title9_1_0_,
+        companyent1_.id as id1_0_1_,
+        companyent1_.address as address2_0_1_,
+        companyent1_.name as name3_0_1_,
+        companyent1_.phone_number as phone_nu4_0_1_ 
+    from
+        coupons couponenti0_ 
+    left outer join
+        companies companyent1_ 
+            on couponenti0_.company_entity_id=companyent1_.id 
+    where
+        couponenti0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-10] DEBUG:
+    select
+        couponenti0_.id as id1_1_0_,
+        couponenti0_.amount as amount2_1_0_,
+        couponenti0_.category as category3_1_0_,
+        couponenti0_.company_entity_id as company10_1_0_,
+        couponenti0_.description as descript4_1_0_,
+        couponenti0_.end_date as end_date5_1_0_,
+        couponenti0_.image_url as image_ur6_1_0_,
+        couponenti0_.price as price7_1_0_,
+        couponenti0_.start_date as start_da8_1_0_,
+        couponenti0_.title as title9_1_0_,
+        companyent1_.id as id1_0_1_,
+        companyent1_.address as address2_0_1_,
+        companyent1_.name as name3_0_1_,
+        companyent1_.phone_number as phone_nu4_0_1_ 
+    from
+        coupons couponenti0_ 
+    left outer join
+        companies companyent1_ 
+            on couponenti0_.company_entity_id=companyent1_.id 
+    where
+        couponenti0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-10] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-12-18 17:00:09 [http-nio-8080-exec-9] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-12-18 17:00:09 [http-nio-8080-exec-6] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-12-18 17:00:09 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-12-18 17:00:09 [http-nio-8080-exec-4] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-4] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-12-18 17:00:09 [http-nio-8080-exec-3] DEBUG:
+    select
+        couponenti0_.id as id1_1_0_,
+        couponenti0_.amount as amount2_1_0_,
+        couponenti0_.category as category3_1_0_,
+        couponenti0_.company_entity_id as company10_1_0_,
+        couponenti0_.description as descript4_1_0_,
+        couponenti0_.end_date as end_date5_1_0_,
+        couponenti0_.image_url as image_ur6_1_0_,
+        couponenti0_.price as price7_1_0_,
+        couponenti0_.start_date as start_da8_1_0_,
+        couponenti0_.title as title9_1_0_,
+        companyent1_.id as id1_0_1_,
+        companyent1_.address as address2_0_1_,
+        companyent1_.name as name3_0_1_,
+        companyent1_.phone_number as phone_nu4_0_1_ 
+    from
+        coupons couponenti0_ 
+    left outer join
+        companies companyent1_ 
+            on couponenti0_.company_entity_id=companyent1_.id 
+    where
+        couponenti0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-1] DEBUG:
+    select
+        couponenti0_.id as id1_1_0_,
+        couponenti0_.amount as amount2_1_0_,
+        couponenti0_.category as category3_1_0_,
+        couponenti0_.company_entity_id as company10_1_0_,
+        couponenti0_.description as descript4_1_0_,
+        couponenti0_.end_date as end_date5_1_0_,
+        couponenti0_.image_url as image_ur6_1_0_,
+        couponenti0_.price as price7_1_0_,
+        couponenti0_.start_date as start_da8_1_0_,
+        couponenti0_.title as title9_1_0_,
+        companyent1_.id as id1_0_1_,
+        companyent1_.address as address2_0_1_,
+        companyent1_.name as name3_0_1_,
+        companyent1_.phone_number as phone_nu4_0_1_ 
+    from
+        coupons couponenti0_ 
+    left outer join
+        companies companyent1_ 
+            on couponenti0_.company_entity_id=companyent1_.id 
+    where
+        couponenti0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-8] DEBUG:
+    select
+        couponenti0_.id as id1_1_0_,
+        couponenti0_.amount as amount2_1_0_,
+        couponenti0_.category as category3_1_0_,
+        couponenti0_.company_entity_id as company10_1_0_,
+        couponenti0_.description as descript4_1_0_,
+        couponenti0_.end_date as end_date5_1_0_,
+        couponenti0_.image_url as image_ur6_1_0_,
+        couponenti0_.price as price7_1_0_,
+        couponenti0_.start_date as start_da8_1_0_,
+        couponenti0_.title as title9_1_0_,
+        companyent1_.id as id1_0_1_,
+        companyent1_.address as address2_0_1_,
+        companyent1_.name as name3_0_1_,
+        companyent1_.phone_number as phone_nu4_0_1_ 
+    from
+        coupons couponenti0_ 
+    left outer join
+        companies companyent1_ 
+            on couponenti0_.company_entity_id=companyent1_.id 
+    where
+        couponenti0_.id=?
+2022-12-18 17:00:09 [http-nio-8080-exec-1] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-12-18 17:00:09 [http-nio-8080-exec-3] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-12-18 17:00:09 [http-nio-8080-exec-8] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-12-18 17:00:49 [http-nio-8080-exec-5] DEBUG:
+    select
+        couponenti0_.id as id1_1_,
+        couponenti0_.amount as amount2_1_,
+        couponenti0_.category as category3_1_,
+        couponenti0_.company_entity_id as company10_1_,
+        couponenti0_.description as descript4_1_,
+        couponenti0_.end_date as end_date5_1_,
+        couponenti0_.image_url as image_ur6_1_,
+        couponenti0_.price as price7_1_,
+        couponenti0_.start_date as start_da8_1_,
+        couponenti0_.title as title9_1_ 
+    from
+        coupons couponenti0_ 
+    order by
+        couponenti0_.title asc limit ?
+2022-12-18 17:00:49 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:49 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [3]
+2022-12-18 17:00:49 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:49 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [2]
+2022-12-18 17:00:49 [http-nio-8080-exec-5] DEBUG:
+    select
+        companyent0_.id as id1_0_0_,
+        companyent0_.address as address2_0_0_,
+        companyent0_.name as name3_0_0_,
+        companyent0_.phone_number as phone_nu4_0_0_ 
+    from
+        companies companyent0_ 
+    where
+        companyent0_.id=?
+2022-12-18 17:00:49 [http-nio-8080-exec-5] TRACE:binding parameter [1] as [BIGINT] - [1]
+2022-12-18 17:00:49 [http-nio-8080-exec-5] DEBUG:
+    select
+        count(couponenti0_.id) as col_0_0_ 
+    from
+        coupons couponenti0_
+2022-12-18 17:18:43 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m22s113ms).
+2022-12-18 17:45:29 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m45s254ms).
+2022-12-18 18:19:20 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m51s235ms).
+2022-12-18 19:19:19 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m59s46ms).
+2022-12-18 19:36:39 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m20s428ms).
+2022-12-18 20:09:03 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m23s203ms).
+2022-12-18 20:51:46 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m43s808ms).
+2022-12-18 21:13:28 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m41s805ms).
+2022-12-18 21:38:50 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m21s432ms).
+2022-12-18 21:43:01 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m10s930ms).
+2022-12-18 22:16:10 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m9s190ms).
+2022-12-18 22:30:34 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m24s271ms).
+2022-12-18 23:07:07 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m33s81ms).
+2022-12-18 23:55:03 [HikariPool-1 housekeeper] WARN :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m56s142ms).
